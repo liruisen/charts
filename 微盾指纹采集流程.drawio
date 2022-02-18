@@ -1,1 +1,299 @@
-<mxfile host="app.diagrams.net" modified="2022-02-18T06:46:07.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50" etag="LmyQA492rNGww-V0KEfi" version="15.9.6" type="github"><diagram id="rSWz7i_GcHW63UVmCtQf" name="Page-1">dZE9D4IwEIZ/TXfsGdEZURcnBueGnrRJ4UipAf31QlrEBp16fe69bwZZPZytaNWVJBrGEzkwODLON5Bux2ciT0/2wD2orJZBtIBCvzDAJNCHlthFQkdknG5jWFLTYOkiJqylPpbdycRVW1HhChSlMGt609KpMAVPF35BXam58mZ38J5azOIwSaeEpP4LQc4gs0TOW/WQoZmWN+/Fx53+eD+NWWzcj4DRWHKPn+hCkL8B</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-18T07:24:40.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36 Edg/98.0.1108.50" etag="qMwOnOZc7dWOyC9hPVLc" version="15.9.6" type="github">
+  <diagram id="rSWz7i_GcHW63UVmCtQf" name="Page-1">
+    <mxGraphModel dx="3435" dy="2080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-1" target="Puu4L9hwweTaVYlsWPO1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-1" value="微盾指纹采集流程" style="rounded=5;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;sketch=0;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.47;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-11" target="Puu4L9hwweTaVYlsWPO1-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="350" as="sourcePoint" />
+            <mxPoint x="1237" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1237" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-107" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-14">
+          <mxGeometry x="-0.8009" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-19" target="Puu4L9hwweTaVYlsWPO1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-11" value="判断参数&lt;br&gt;存在且合法" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.474;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-17" target="Puu4L9hwweTaVYlsWPO1-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1237" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1238" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-33" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-21">
+          <mxGeometry x="-0.8195" y="2" relative="1" as="geometry">
+            <mxPoint x="23" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-17" target="Puu4L9hwweTaVYlsWPO1-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-32" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-31">
+          <mxGeometry x="-0.2667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-17" value="设备是否正在工作" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="470" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-19" value="true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-11" target="Puu4L9hwweTaVYlsWPO1-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="390" as="sourcePoint" />
+            <mxPoint x="720" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-30" target="Puu4L9hwweTaVYlsWPO1-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-30" value="打开设备" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.471;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-36" target="Puu4L9hwweTaVYlsWPO1-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1237" y="1240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1238" y="810" />
+              <mxPoint x="1238" y="1240" />
+              <mxPoint x="1237" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-39" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-38">
+          <mxGeometry x="-0.4889" y="2" relative="1" as="geometry">
+            <mxPoint x="-102" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-36" target="Puu4L9hwweTaVYlsWPO1-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-36" value="设备打开成功" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="770" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-41" target="Puu4L9hwweTaVYlsWPO1-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="970" as="sourcePoint" />
+            <mxPoint x="670" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-41" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;consolas&amp;quot; , &amp;quot;courier new&amp;quot; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;&quot;&gt;设备打开成功，准备放置手指&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-49" target="Puu4L9hwweTaVYlsWPO1-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-52" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-51">
+          <mxGeometry x="-0.2444" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-49" target="Puu4L9hwweTaVYlsWPO1-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-64" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-63">
+          <mxGeometry x="-0.2444" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-49" value="采集到指纹" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1090" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-53" target="Puu4L9hwweTaVYlsWPO1-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-59" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-56">
+          <mxGeometry x="-0.2444" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-53" target="Puu4L9hwweTaVYlsWPO1-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="1300" />
+              <mxPoint x="470" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-58" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-57">
+          <mxGeometry x="-0.1241" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-53" value="手指放置正确" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="1460" />
+              <mxPoint x="370" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-55" value="采集指纹" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-62" target="Puu4L9hwweTaVYlsWPO1-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-62" value="缓存采集到的&lt;br&gt;指纹数据&lt;br&gt;并返回前端" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-66" target="Puu4L9hwweTaVYlsWPO1-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1074" y="1270" as="sourcePoint" />
+            <mxPoint x="1177" y="1270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-69" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-68">
+          <mxGeometry x="-0.1521" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="1370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="1350" />
+              <mxPoint x="940" y="1350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-66" value="指纹采集&lt;br&gt;数量足够" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-70" target="Puu4L9hwweTaVYlsWPO1-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-102" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-100">
+          <mxGeometry x="-0.8066" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-70" target="Puu4L9hwweTaVYlsWPO1-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-106" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-103">
+          <mxGeometry x="-0.6814" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-70" value="采集到指纹" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-72" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="581" y="1384" as="geometry">
+            <mxPoint x="357" y="-45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-74" target="Puu4L9hwweTaVYlsWPO1-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-74" value="新指纹与缓存指纹进行对比" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-76" target="Puu4L9hwweTaVYlsWPO1-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-83" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-79">
+          <mxGeometry x="-0.2667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-76" target="Puu4L9hwweTaVYlsWPO1-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="1850" />
+              <mxPoint x="790" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-85" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-84">
+          <mxGeometry x="-0.0955" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-76" value="为同一只手指" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-78" target="Puu4L9hwweTaVYlsWPO1-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="2010" />
+              <mxPoint x="730" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-78" value="缓存并返回前端" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-86" target="Puu4L9hwweTaVYlsWPO1-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-86" value="放置手指" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-88" target="Puu4L9hwweTaVYlsWPO1-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-101" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-91">
+          <mxGeometry x="-0.2762" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-88" target="Puu4L9hwweTaVYlsWPO1-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-105" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Puu4L9hwweTaVYlsWPO1-104">
+          <mxGeometry x="-0.4444" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-88" value="手指放置正确" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-90" target="Puu4L9hwweTaVYlsWPO1-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-90" value="采集指纹" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="Puu4L9hwweTaVYlsWPO1-92" target="Puu4L9hwweTaVYlsWPO1-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-92" value="开始采集指纹" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Puu4L9hwweTaVYlsWPO1-109" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="1181" y="1245" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
